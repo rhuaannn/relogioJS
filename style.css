@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #58534c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 30px;
+}
+.hrs {
+  width: 5em;
+  height: 3em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(104, 100, 100);
+  background-color: rgb(221, 211, 211);
+  font-family: Georgia, sans-serif;
+  padding-top: 25px;
+}
+
+.mtos {
+  width: 5em;
+  height: 3em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(104, 100, 100);
+  background-color: rgb(221, 211, 211);
+  font-family: Georgia, sans-serif;
+  padding-top: 25px;
+}
+.sgd {
+  width: 5em;
+  height: 3em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(104, 100, 100);
+  background-color: rgb(221, 211, 211);
+  font-family: Georgia, sans-serif;
+  padding-top: 25px;
+}
