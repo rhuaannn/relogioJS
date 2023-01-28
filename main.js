@@ -18,19 +18,13 @@ setInterval(() => {
 }, 1000);
 
 function time() {
-  if(hour <10){
-  document.querySelector(".hrs").innerHTML = `0${hour}`;
-  }else{
-    document.querySelector(".hrs").innerHTML = hour;
-  }
-  if (minute < 10) {
-    document.querySelector(
-      ".mtos"
-    ).innerHTML = `0${minute}`;
-  } else {
+
+     document.querySelector(".hrs").innerHTML =
+      hour;
+  
     document.querySelector(".mtos").innerHTML =
       minute;
-  }
+
 
   if (second < 10) {
     document.querySelector(
